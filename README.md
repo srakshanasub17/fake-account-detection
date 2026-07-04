@@ -11,6 +11,7 @@ The project aims to detect fake social media accounts by analyzing account infor
 <small>
 Fake social media accounts are commonly used for spreading spam, misinformation, and fraudulent activities. Manual detection of such accounts is time-consuming and ineffective. This project aims to develop a system that automatically detects fake social media accounts using profile and activity analysis.
 ---
+ 
 ##Requirement Gathering
 - Identified project requirements.
 - Defined user and admin functionalities.
