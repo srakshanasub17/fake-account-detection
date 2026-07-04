@@ -1,7 +1,7 @@
-##Project Title Finalization: 
+##Project Title Finalization: Fake Social Media Accounts and Their Detection
 ---
 <small>
-##Project Title:Fake Social Media Accounts and Their Detection
+##Project Aim:
 <small>
 The project aims to detect fake social media accounts by analyzing account information and user activities. The system helps improve social media security by identifying suspicious and fraudulent accounts.
  
