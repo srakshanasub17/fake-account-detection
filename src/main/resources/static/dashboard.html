@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Dashboard</h1>
+
+    <div class="card">
+        <h3>Accounts Analyzed</h3>
+        <p id="totalAccounts">0</p>
+    </div>
+
+    <div class="card">
+        <h3>Suspicious Accounts</h3>
+        <p id="suspiciousAccounts">0</p>
+    </div>
+
+    <div class="card">
+        <h3>Genuine Accounts</h3>
+        <p id="genuineAccounts">0</p>
+    </div>
+
+    <a href="detection.html">
+        <button>Analyze Account</button>
+    </a>
+
+</div>
+
+<script>
+
+    fetch("/dashboard-data")
+        .then(response => response.json())
+        .then(data => {
+
+            document.getElementById("totalAccounts").innerHTML =
+                data.totalAccounts;
+
+            document.getElementById("suspiciousAccounts").innerHTML =
+                data.suspiciousAccounts;
+
+            document.getElementById("genuineAccounts").innerHTML =
+                data.genuineAccounts;
+
+        });
+
+</script>
+
+</body>
+</html>

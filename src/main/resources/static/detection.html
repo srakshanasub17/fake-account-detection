@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Account Analysis</h1>
+
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter Username">
+
+        <label for="followers">Followers</label>
+        <input type="number" id="followers" placeholder="Enter Followers Count">
+
+        <label for="following">Following</label>
+        <input type="number" id="following" placeholder="Enter Following Count">
+
+        <label for="posts">Posts</label>
+        <input type="number" id="posts" placeholder="Enter Number of Posts">
+
+        <label for="accountAge">Account Age (Days)</label>
+        <input type="number" id="accountAge" placeholder="Enter Account Age">
+
+        <label for="profilePicture">Profile Picture Available</label>
+        <select id="profilePicture">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+
+        <label for="bio">Bio Available</label>
+        <select id="bio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+
+        <button onclick="analyzeAccount()">Analyze</button>
+        <br><br>
+
+        <a href="dashboard.html">
+            <button type="button">Back to Dashboard</button>
+        </a>
+        <h2 id="result"></h2>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
