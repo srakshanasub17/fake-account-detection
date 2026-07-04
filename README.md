@@ -1,4 +1,4 @@
-Project Title Finalization
+Project Title Finalization: 
 Fake Social Media Accounts and Their Detection
 ---
 ###Project Title:
